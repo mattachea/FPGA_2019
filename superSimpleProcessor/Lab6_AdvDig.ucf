@@ -1,0 +1,5 @@
+NET clk            LOC="P94"  | IOSTANDARD=LVTTL | PERIOD=31.25ns;     
+
+NET button   LOC="P132"  | IOSTANDARD=LVTTL;      #button up
+
+NET pulsed       LOC="P55"  | IOSTANDARD=LVTTL;      #led

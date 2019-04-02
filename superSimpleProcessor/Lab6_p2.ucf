@@ -1,0 +1,21 @@
+NET CLK             LOC="P94"  | IOSTANDARD=LVTTL | PERIOD=31.25ns;     
+
+NET result(0)       LOC="P55"  | IOSTANDARD=LVTTL;                               
+NET result(1)       LOC="P50"  | IOSTANDARD=LVTTL;                               
+NET result(2)       LOC="P47"  | IOSTANDARD=LVTTL;                         
+NET result(3)       LOC="P121"  | IOSTANDARD=LVTTL;                               
+NET result(4)       LOC="P123"  | IOSTANDARD=LVTTL;                              
+NET result(5)       LOC="P124"  | IOSTANDARD=LVTTL;                            
+NET result(6)       LOC="P126"   | IOSTANDARD=LVTTL;                               
+NET result(7)       LOC="P127"   | IOSTANDARD=LVTTL;                           
+
+NET input(0)    LOC="P116"   | IOSTANDARD=LVTTL;                              
+NET input(1)    LOC="P117"   | IOSTANDARD=LVTTL;                               
+NET input(2)    LOC="P118"   | IOSTANDARD=LVTTL;                                
+NET input(3)    LOC="P119"  | IOSTANDARD=LVTTL;                               
+NET input(4)    LOC="P120"  | IOSTANDARD=LVTTL;                         
+NET input(5)    LOC="P62"  | IOSTANDARD=LVTTL;                            
+NET input(6)    LOC="P59"  | IOSTANDARD=LVTTL;                              
+NET input(7)    LOC="P57"  | IOSTANDARD=LVTTL;                               
+
+NET BUTTON_UP   LOC="P132"  | IOSTANDARD=LVTTL;         
